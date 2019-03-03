@@ -1,4 +1,4 @@
-# Vince Bloise's portfolio
+# Cookie Api
 This is an api built using Claudia
 
 ## Technologies Used
