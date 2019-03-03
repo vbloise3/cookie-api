@@ -1,0 +1,23 @@
+{
+  "name": "cookie-api",
+  "version": "1.0.0",
+  "description": "cookie api",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbloise3/cookie-api.git"
+  },
+  "author": "Vince Bloise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbloise3/cookie-api/issues"
+  },
+  "homepage": "https://github.com/vbloise3/cookie-api#readme",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2",
+    "claudia-bot-builder": "^4.5.0"
+  }
+}
