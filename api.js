@@ -1,15 +1,23 @@
-'use strict';
+'use strict'
 
-const Api = require('claudia-api-builder');
-const api = new Api();
+const Api = require('claudia-api-builder')
+const api = new Api()
+
+const getCookies = require('./handlers/get-cookies')
+
+
+// Define routes
+api.get('/', () => 'Welcome to Cookie API')
 
 api.get('/cookies', () => {
-    return [
-        'Chocolate Chip',
-        'Christmas',
-        'Cut-out',
-        'Short Bread'
-    ]
-});
+    return getCookies()
+})
+api.get('/cookies/{id}', (request) => {
+    return getCookies(request.pathParams.id)
+}, {
+    error: 404
+})
 
-module.exports = api;
+
+
+module.exports = api

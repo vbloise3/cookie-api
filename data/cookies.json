@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Chip",
+    "ingredients": [
+      "flour", "sugar", "chocolate chips", "butter"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Christmas",
+    "ingredients": [
+      "flour", "sugar", "cinnamon", "butter"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cut-out",
+    "ingredients": [
+      "flour", "sugar", "sprinkles", "butter"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Short Bread",
+    "ingredients": [
+      "flour", "sugar", "anise", "butter"
+    ]
+  }
+]

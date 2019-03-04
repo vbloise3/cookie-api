@@ -4,14 +4,23 @@ claudia create --region us-east-1 --api-module api
 
 ##API lambda function info:
 {
-  "lambda": {
-    "role": "cookie-api-executor",
-    "name": "cookie-api",
-    "region": "us-east-1"
+  "FunctionName": "cookie-api",
+  "FunctionArn": "arn:aws:lambda:us-east-1:001178231653:function:cookie-api:2",
+  "Runtime": "nodejs8.10",
+  "Role": "arn:aws:iam::001178231653:role/cookie-api-executor",
+  "Handler": "api.proxyRouter",
+  "CodeSize": 12828948,
+  "Description": "cookie api",
+  "Timeout": 3,
+  "MemorySize": 128,
+  "LastModified": "2019-03-04T20:42:23.147+0000",
+  "CodeSha256": "6xU5Mpt8xGgWykiidGRgNJpvyaU4SIHjKbnmQxgtHUs=",
+  "Version": "2",
+  "KMSKeyArn": null,
+  "TracingConfig": {
+    "Mode": "PassThrough"
   },
-  "api": {
-    "id": "s2l302n7xa",
-    "module": "api",
-    "url": "https://s2l302n7xa.execute-api.us-east-1.amazonaws.com/latest"
-  }
+  "MasterArn": null,
+  "RevisionId": "d0f300c8-3bd6-4d81-89f4-8bcbdef29e5a",
+  "url": "https://s2l302n7xa.execute-api.us-east-1.amazonaws.com/latest"
 }
